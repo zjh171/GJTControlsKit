@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -100,7 +100,6 @@
 				07F87C9165A4747D1E3B6794 /* Pods-GJTControlsKit.debug.xcconfig */,
 				19A070790A8ABD9B029EEBC3 /* Pods-GJTControlsKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

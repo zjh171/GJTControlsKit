@@ -109,9 +109,12 @@ UITableView * tableView;
         cell = [[UITableViewCell alloc] initWithStyle:0 reuseIdentifier:Identifier];
     }
     NSString *imageSourceName = self.imagesData[indexPath.row];
-    NSString *imageName = [[NSBundle mainBundle] pathForResource:imageSourceName ofType:@"png"];
-    NSData *data = [NSData dataWithContentsOfFile:imageName];
-    UIImage *image = [UIImage imageWithData:data];
+
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"GJTControlsKit" ofType:@"framework" inDirectory:@"Frameworks"];
+//    NSBundle *bundle = [NSBundle bundleWithPath:path];
+//    UIImage *image = [UIImage imageNamed:imageSourceName inBundle:bundle compatibleWithTraitCollection:nil];
+
+    UIImage *image = [UIImage imageNamed:imageSourceName];
     cell.imageView.image = image;
     cell.textLabel.text = _selectData[indexPath.row];
     return cell;

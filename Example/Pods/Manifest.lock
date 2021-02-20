@@ -1,5 +1,5 @@
 PODS:
-  - GJTControlsKit (0.0.1)
+  - GJTControlsKit (0.0.3)
 
 DEPENDENCIES:
   - GJTControlsKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GJTControlsKit: 80829291036f5bca07e970638094bf622d1db89c
+  GJTControlsKit: d475a079c24e493f3fc510823e1c0eeda59e23fe
 
 PODFILE CHECKSUM: b6c8823b969791ce3f3a14a73722e16788e89f31
 
