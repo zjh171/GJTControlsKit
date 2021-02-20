@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                       UIControl 的扩展
                    DESC
 
-  spec.homepage     = "http://kyson.cn/pods/GJTControlsKit"
+  spec.homepage     = "https://github.com/zjh171/GJTControlsKit"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://kyson.cn/pods/GJTControlsKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:zjh171/GJTControlsKit.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
