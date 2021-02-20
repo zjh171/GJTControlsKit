@@ -1,0 +1,16 @@
+PODS:
+  - GJTControlsKit (0.0.1)
+
+DEPENDENCIES:
+  - GJTControlsKit (from `../`)
+
+EXTERNAL SOURCES:
+  GJTControlsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GJTControlsKit: 80829291036f5bca07e970638094bf622d1db89c
+
+PODFILE CHECKSUM: b6c8823b969791ce3f3a14a73722e16788e89f31
+
+COCOAPODS: 1.10.1

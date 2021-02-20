@@ -1,0 +1,27 @@
+{
+  "name": "GJTControlsKit",
+  "version": "0.0.1",
+  "summary": "A short description of GJTControlsKit.",
+  "description": "UIControl 的扩展",
+  "homepage": "http://kyson.cn/pods/GJTControlsKit",
+  "license": "MIT",
+  "authors": {
+    "": ""
+  },
+  "source": {
+    "git": "http://kyson.cn/pods/GJTControlsKit.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "resources": "Resources/*.png",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
