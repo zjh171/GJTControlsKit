@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <GJTControlsKit/GJTTableSelectView.h>
 
 @interface ViewController ()
 

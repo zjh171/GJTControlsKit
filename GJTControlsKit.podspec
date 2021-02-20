@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GJTControlsKit"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of GJTControlsKit."
+  spec.version      = "0.0.2"
+  spec.summary      = "Gojito 的控件辅助类"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                      UIControl 的扩展
+                      Gojito 的控件辅助类，他扩展了 UIControl 库
                    DESC
 
   spec.homepage     = "https://github.com/zjh171/GJTControlsKit"
@@ -64,11 +64,11 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+   spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+   spec.ios.deployment_target = "9.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -117,8 +117,8 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+#  spec.framework  = "UIKit"
+   spec.frameworks = "UIKit", "Foundation"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
@@ -130,7 +130,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+#   spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
