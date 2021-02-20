@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GJTControlsKit.h"
 #import "GJTTableSelectView.h"
 
 FOUNDATION_EXPORT double GJTControlsKitVersionNumber;

@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042431686CD5978FE6B8DC4C0FA145A4 /* GJTTableSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F955AB89B452E88CE4F38BE3199708 /* GJTTableSelectView.m */; };
-		0EEC0BA0B8A1DB19FAF7A556FE408A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		0B99B7190BBC49EDBC60B2D57E140193 /* GJTControlsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B7BDEF5788714DF6BC64F1C95734BC /* GJTControlsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		264BF101F29C32D35D226C815D36B839 /* Pods-GJTControlsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24097346ECCF5B15674F45213176623D /* Pods-GJTControlsKit-dummy.m */; };
-		50E67CE977092A58D68612A12953E115 /* GJTControlsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C2AD7E23A510EFED7E2CC15A920A3 /* GJTControlsKit-dummy.m */; };
 		629C75957B71374E09BFB848A7CB184B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		69AF213673FEB07D82AFAB433D7B09EB /* GJTTableSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B4B4C5E041B451630583AD06A79D35 /* GJTTableSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72638841C37F13C11DBEAA6175091080 /* Pods-GJTControlsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 653A90EBA877B39651B828BF6608CBBC /* Pods-GJTControlsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99061B7874FE084EA8FC5CAF69FA0F83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		F9DD7C64D1D0C2F5EDB10BCA640FA81C /* GJTControlsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E0893E5809D51599C6E26C11266707 /* GJTControlsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B2B83D064B315366B84C63F76E435B /* GJTControlsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ED03A3FC225258B61D418080C9BB64 /* GJTControlsKit-dummy.m */; };
+		A5560D18232B435B45E48B38C2F052B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		AE805F9F2F233DDE04D859E069A2EE1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		B068B6826FCCC7752D528C95A09F8EF7 /* GJTControlsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 274A2455951B63C482055D63997E5C8D /* GJTControlsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B708BCE7BB6D4F9502CF6F7E3DD626 /* GJTTableSelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8397A7A1EBEB79E9EC813FC3CA37B2 /* GJTTableSelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E60D7FA9AAF60FFC95348B6CD5EED89A /* GJTTableSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C6BA814C6D1A704EBA4D2A74539FA /* GJTTableSelectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		290A6D35F0EBD046996A6DA0008C1154 /* PBXContainerItemProxy */ = {
+		FDA97960D36C0AC56AFBB6BD689583DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,35 +30,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A5EF6D61D947750DAE4A7CD810E393 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		08CBDE1D8482A7F146984647B6B46B47 /* Pods-GJTControlsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTControlsKit.release.xcconfig"; sourceTree = "<group>"; };
-		0D24CE4A651A23001CBE336D65ACCC08 /* GJTControlsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTControlsKit.release.xcconfig; sourceTree = "<group>"; };
+		0B257EBCEB761E161D68CA64B41A59D1 /* GJTControlsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTControlsKit.debug.xcconfig; sourceTree = "<group>"; };
+		1EFB292093F75C98BA27E8C6C4D2B270 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		24097346ECCF5B15674F45213176623D /* Pods-GJTControlsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJTControlsKit-dummy.m"; sourceTree = "<group>"; };
+		274A2455951B63C482055D63997E5C8D /* GJTControlsKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTControlsKit.h; path = Classes/GJTControlsKit.h; sourceTree = "<group>"; };
+		30B7BDEF5788714DF6BC64F1C95734BC /* GJTControlsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTControlsKit-umbrella.h"; sourceTree = "<group>"; };
 		314ED8C1508FF80B730790D1D92C49A1 /* Pods-GJTControlsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJTControlsKit-Info.plist"; sourceTree = "<group>"; };
-		3676F1F3EED33A6662685E9C9333857C /* GJTControlsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GJTControlsKit.modulemap; sourceTree = "<group>"; };
+		322D7994CAFC468DD80930FB418CE822 /* GJTControlsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GJTControlsKit.modulemap; sourceTree = "<group>"; };
 		381EDB99681279918E485E359B38C5F3 /* Pods-GJTControlsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJTControlsKit.debug.xcconfig"; sourceTree = "<group>"; };
-		3B9C2AD7E23A510EFED7E2CC15A920A3 /* GJTControlsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJTControlsKit-dummy.m"; sourceTree = "<group>"; };
-		59809DF9519D8FC194141105898266D4 /* GJTControlsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTControlsKit.debug.xcconfig; sourceTree = "<group>"; };
-		60E0893E5809D51599C6E26C11266707 /* GJTControlsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTControlsKit-umbrella.h"; sourceTree = "<group>"; };
+		44089FFEC6B2E4394620D93C94AD9330 /* GJTControlsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GJTControlsKit-Info.plist"; sourceTree = "<group>"; };
+		4BC2CDF1DF0CB2D54D2D38F4EDDA0174 /* GJTControlsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJTControlsKit.release.xcconfig; sourceTree = "<group>"; };
 		653A90EBA877B39651B828BF6608CBBC /* Pods-GJTControlsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GJTControlsKit-umbrella.h"; sourceTree = "<group>"; };
-		6FA4519DDF53B1F6EC0493BD43E3816E /* GJTControlsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTControlsKit-prefix.pch"; sourceTree = "<group>"; };
 		754E7D8E7CCA38DF2E70963F3CC897CC /* Pods-GJTControlsKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJTControlsKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7A2E23BA2629F557D9F325DD1C986460 /* GJTControlsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GJTControlsKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E8397A7A1EBEB79E9EC813FC3CA37B2 /* GJTTableSelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTTableSelectView.h; path = Classes/GJTTableSelectView.h; sourceTree = "<group>"; };
 		95D72CC585FA21DABB595D1C3DE6E3F7 /* Pods-GJTControlsKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJTControlsKit-acknowledgements.plist"; sourceTree = "<group>"; };
-		95F955AB89B452E88CE4F38BE3199708 /* GJTTableSelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJTTableSelectView.m; path = Classes/GJTTableSelectView.m; sourceTree = "<group>"; };
 		9C9E30F6758FBFCEC2A21B6218444898 /* GJTControlsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GJTControlsKit.framework; path = GJTControlsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA8A0018D581763EFE85D663038B84A /* GJTControlsKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GJTControlsKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F5C6BA814C6D1A704EBA4D2A74539FA /* GJTTableSelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GJTTableSelectView.m; path = Classes/GJTTableSelectView.m; sourceTree = "<group>"; };
 		AC37E7F7DE9FE684E1BBF4EBB9BC084A /* Pods-GJTControlsKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GJTControlsKit-frameworks.sh"; sourceTree = "<group>"; };
-		C56377902B20E625333431922DC5ADDA /* GJTControlsKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GJTControlsKit-Info.plist"; sourceTree = "<group>"; };
-		CAFA7B83F85FDD21D5FCDFDF4F47D493 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D12E2DE0DDB197BD635DA26283800FB0 /* Pods_GJTControlsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GJTControlsKit.framework; path = "Pods-GJTControlsKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E997516699FFE1741E0F07C1BFA103F1 /* GJTControlsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJTControlsKit-prefix.pch"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EC283E16B09C4AB499BC6D610797FD51 /* Pods-GJTControlsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GJTControlsKit.modulemap"; sourceTree = "<group>"; };
-		F2B4B4C5E041B451630583AD06A79D35 /* GJTTableSelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GJTTableSelectView.h; path = Classes/GJTTableSelectView.h; sourceTree = "<group>"; };
+		F3ED03A3FC225258B61D418080C9BB64 /* GJTControlsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJTControlsKit-dummy.m"; sourceTree = "<group>"; };
+		F9D4F5BEEBDF9BA40C5C5ADBC603B92F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F7574268B4A13374FC2546EE38E4F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5560D18232B435B45E48B38C2F052B2 /* Foundation.framework in Frameworks */,
+				AE805F9F2F233DDE04D859E069A2EE1D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90ECA3C403F0DC565580846F0CDF0719 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,24 +77,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6E2C1ED348D13B48A5E9B2ED1FC6015 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EEC0BA0B8A1DB19FAF7A556FE408A54 /* Foundation.framework in Frameworks */,
-				99061B7874FE084EA8FC5CAF69FA0F83 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F2DD05E743BB0083302788410D92CB8 /* Development Pods */ = {
+		01C230FEBB797C94ED88E7D1108FC1BF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2150A6AA3803B13FD7B06DBB6DF6FD9C /* GJTControlsKit */,
+				322D7994CAFC468DD80930FB418CE822 /* GJTControlsKit.modulemap */,
+				F3ED03A3FC225258B61D418080C9BB64 /* GJTControlsKit-dummy.m */,
+				44089FFEC6B2E4394620D93C94AD9330 /* GJTControlsKit-Info.plist */,
+				E997516699FFE1741E0F07C1BFA103F1 /* GJTControlsKit-prefix.pch */,
+				30B7BDEF5788714DF6BC64F1C95734BC /* GJTControlsKit-umbrella.h */,
+				0B257EBCEB761E161D68CA64B41A59D1 /* GJTControlsKit.debug.xcconfig */,
+				4BC2CDF1DF0CB2D54D2D38F4EDDA0174 /* GJTControlsKit.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GJTControlsKit";
+			sourceTree = "<group>";
+		};
+		14277F41A7B44CF76BD1A149EA02C61D /* GJTControlsKit */ = {
+			isa = PBXGroup;
+			children = (
+				274A2455951B63C482055D63997E5C8D /* GJTControlsKit.h */,
+				8E8397A7A1EBEB79E9EC813FC3CA37B2 /* GJTTableSelectView.h */,
+				9F5C6BA814C6D1A704EBA4D2A74539FA /* GJTTableSelectView.m */,
+				8EFDBAED99C56483BCE7F9BA0052C4BB /* Pod */,
+				01C230FEBB797C94ED88E7D1108FC1BF /* Support Files */,
+			);
+			name = GJTControlsKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -94,16 +116,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2150A6AA3803B13FD7B06DBB6DF6FD9C /* GJTControlsKit */ = {
+		31CC2DCD0CE8AB49D00715E6DD8D7208 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2B4B4C5E041B451630583AD06A79D35 /* GJTTableSelectView.h */,
-				95F955AB89B452E88CE4F38BE3199708 /* GJTTableSelectView.m */,
-				59F56465F5C8A374149598966B376DFC /* Pod */,
-				A896872C3C87B9E028884544BD3DF39C /* Support Files */,
+				14277F41A7B44CF76BD1A149EA02C61D /* GJTControlsKit */,
 			);
-			name = GJTControlsKit;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -115,12 +133,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		59F56465F5C8A374149598966B376DFC /* Pod */ = {
+		8EFDBAED99C56483BCE7F9BA0052C4BB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7A2E23BA2629F557D9F325DD1C986460 /* GJTControlsKit.podspec */,
-				00A5EF6D61D947750DAE4A7CD810E393 /* LICENSE */,
-				CAFA7B83F85FDD21D5FCDFDF4F47D493 /* README.md */,
+				9CA8A0018D581763EFE85D663038B84A /* GJTControlsKit.podspec */,
+				1EFB292093F75C98BA27E8C6C4D2B270 /* LICENSE */,
+				F9D4F5BEEBDF9BA40C5C5ADBC603B92F /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -133,26 +151,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A896872C3C87B9E028884544BD3DF39C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3676F1F3EED33A6662685E9C9333857C /* GJTControlsKit.modulemap */,
-				3B9C2AD7E23A510EFED7E2CC15A920A3 /* GJTControlsKit-dummy.m */,
-				C56377902B20E625333431922DC5ADDA /* GJTControlsKit-Info.plist */,
-				6FA4519DDF53B1F6EC0493BD43E3816E /* GJTControlsKit-prefix.pch */,
-				60E0893E5809D51599C6E26C11266707 /* GJTControlsKit-umbrella.h */,
-				59809DF9519D8FC194141105898266D4 /* GJTControlsKit.debug.xcconfig */,
-				0D24CE4A651A23001CBE336D65ACCC08 /* GJTControlsKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GJTControlsKit";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0F2DD05E743BB0083302788410D92CB8 /* Development Pods */,
+				31CC2DCD0CE8AB49D00715E6DD8D7208 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				F874861CB1F6BBA10D465AF6A05764AC /* Products */,
 				A3134C6A2FC4086C565E61E4521EF493 /* Targets Support Files */,
@@ -196,12 +199,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A47AE6817B13ACD08B98AECA49BE14AB /* Headers */ = {
+		99BD37449CAEA1D98D2817383E386D73 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9DD7C64D1D0C2F5EDB10BCA640FA81C /* GJTControlsKit-umbrella.h in Headers */,
-				69AF213673FEB07D82AFAB433D7B09EB /* GJTTableSelectView.h in Headers */,
+				0B99B7190BBC49EDBC60B2D57E140193 /* GJTControlsKit-umbrella.h in Headers */,
+				B068B6826FCCC7752D528C95A09F8EF7 /* GJTControlsKit.h in Headers */,
+				D4B708BCE7BB6D4F9502CF6F7E3DD626 /* GJTTableSelectView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,12 +214,12 @@
 /* Begin PBXNativeTarget section */
 		8170243593CB21A11865C721F4D59A89 /* GJTControlsKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7A21C1F896AB4A3F89ADF7FFC964EA7 /* Build configuration list for PBXNativeTarget "GJTControlsKit" */;
+			buildConfigurationList = BBC17A4E788A0257C08D06CB9A5B536B /* Build configuration list for PBXNativeTarget "GJTControlsKit" */;
 			buildPhases = (
-				A47AE6817B13ACD08B98AECA49BE14AB /* Headers */,
-				42941218615D2A2B67A2DA1F19108D90 /* Sources */,
-				D6E2C1ED348D13B48A5E9B2ED1FC6015 /* Frameworks */,
-				C5465D48B57B1914B2C6AC9572CFE4F4 /* Resources */,
+				99BD37449CAEA1D98D2817383E386D73 /* Headers */,
+				DC486701DC4BE3C1E23265B1CED49E6C /* Sources */,
+				2F7574268B4A13374FC2546EE38E4F70 /* Frameworks */,
+				24F6759005DB54C8C79EABA9354855C7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -238,7 +242,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1479D5389CCD9A56569E6723DBDF4C6D /* PBXTargetDependency */,
+				70220452FAC3FAFD93FA1DA13236A79B /* PBXTargetDependency */,
 			);
 			name = "Pods-GJTControlsKit";
 			productName = "Pods-GJTControlsKit";
@@ -274,7 +278,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C5465D48B57B1914B2C6AC9572CFE4F4 /* Resources */ = {
+		24F6759005DB54C8C79EABA9354855C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -291,15 +295,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42941218615D2A2B67A2DA1F19108D90 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50E67CE977092A58D68612A12953E115 /* GJTControlsKit-dummy.m in Sources */,
-				042431686CD5978FE6B8DC4C0FA145A4 /* GJTTableSelectView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A64E6C2F80C141CC3A9E08ED1937BA94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,14 +303,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC486701DC4BE3C1E23265B1CED49E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B2B83D064B315366B84C63F76E435B /* GJTControlsKit-dummy.m in Sources */,
+				E60D7FA9AAF60FFC95348B6CD5EED89A /* GJTTableSelectView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1479D5389CCD9A56569E6723DBDF4C6D /* PBXTargetDependency */ = {
+		70220452FAC3FAFD93FA1DA13236A79B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GJTControlsKit;
 			target = 8170243593CB21A11865C721F4D59A89 /* GJTControlsKit */;
-			targetProxy = 290A6D35F0EBD046996A6DA0008C1154 /* PBXContainerItemProxy */;
+			targetProxy = FDA97960D36C0AC56AFBB6BD689583DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -386,9 +390,9 @@
 			};
 			name = Debug;
 		};
-		6BB2C75F8BAB4EA66DD71DF5C825AE5B /* Debug */ = {
+		7463024211C5BB5C22D6D0EA581B40F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59809DF9519D8FC194141105898266D4 /* GJTControlsKit.debug.xcconfig */;
+			baseConfigurationReference = 4BC2CDF1DF0CB2D54D2D38F4EDDA0174 /* GJTControlsKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -414,10 +418,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		93D88B5CE11C03CA63627A207360816E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -554,9 +559,9 @@
 			};
 			name = Release;
 		};
-		FBFED850B636DFFA31F465E64581D342 /* Release */ = {
+		CBD3C1CEF9FB37BF7037644108EDDB06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D24CE4A651A23001CBE336D65ACCC08 /* GJTControlsKit.release.xcconfig */;
+			baseConfigurationReference = 0B257EBCEB761E161D68CA64B41A59D1 /* GJTControlsKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -582,11 +587,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -609,11 +613,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7A21C1F896AB4A3F89ADF7FFC964EA7 /* Build configuration list for PBXNativeTarget "GJTControlsKit" */ = {
+		BBC17A4E788A0257C08D06CB9A5B536B /* Build configuration list for PBXNativeTarget "GJTControlsKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BB2C75F8BAB4EA66DD71DF5C825AE5B /* Debug */,
-				FBFED850B636DFFA31F465E64581D342 /* Release */,
+				CBD3C1CEF9FB37BF7037644108EDDB06 /* Debug */,
+				7463024211C5BB5C22D6D0EA581B40F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
