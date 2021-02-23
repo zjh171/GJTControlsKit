@@ -9,6 +9,7 @@
 #define GJTControlsKit_h
 
 
-#import "GJTTableSelectView.h"
 
+#import <GJTControlsKit/GJTTableSelectView.h>
+#import <GJTControlsKit/GJTTextView.h>
 #endif /* GJTControlsKit_h */
