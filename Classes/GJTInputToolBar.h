@@ -1,5 +1,5 @@
 //
-//  GJTInputToolbar.h
+//  GJTInputToolBar.h
 //  GJTControlsKit
 //
 //  Created by kyson on 2021/2/27.
@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^inputToolBarSendBlock)(NSString *text);
 
-@interface GJTInputToolbar : UIView
+@interface GJTInputToolBar : UIView
 /*显示遮罩*/
 @property (nonatomic, assign) BOOL showMaskView;
 /**设置输入框最大行数*/
