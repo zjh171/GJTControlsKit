@@ -12,4 +12,7 @@
 
 #import <GJTControlsKit/GJTTableSelectView.h>
 #import <GJTControlsKit/GJTTextView.h>
+#import <GJTControlsKit/GJTInputToolbar.h>
+
+
 #endif /* GJTControlsKit_h */
