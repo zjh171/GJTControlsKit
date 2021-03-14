@@ -29,7 +29,7 @@
 /**发送按钮*/
 @property (nonatomic, strong) UIButton *sendButton;
 /*keyWindow*/
-@property (nonatomic, strong) UIWindow *keyWindow;
+@property (nonatomic, assign) UIWindow *keyWindow;
 /**发送回调*/
 @property (nonatomic, copy) inputToolBarSendBlock sendBlock;
 
@@ -290,4 +290,15 @@
     
     return hitView;
 }
+
+-(void) invalidate {
+    self.textView.inputAccessoryView = nil;
+}
+
+
+- (void)dealloc
+{
+    
+}
+
 @end

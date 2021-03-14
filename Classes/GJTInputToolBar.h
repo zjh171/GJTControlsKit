@@ -32,6 +32,9 @@ typedef void(^inputToolBarSendBlock)(NSString *text);
 - (void)inputToolbarSendText:(inputToolBarSendBlock)sendBlock;
 
 
+/// 主动释放内存，否则会内存泄露
+-(void) invalidate;
+
 @end
 NS_ASSUME_NONNULL_END
 
