@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GJTControlsKit"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "Gojito 的控件辅助类"
 
   # This description is used to generate tags and improve search results.
